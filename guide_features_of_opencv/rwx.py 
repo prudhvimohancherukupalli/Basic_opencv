@@ -1,0 +1,10 @@
+## rwx means read,write and exicute
+
+
+import cv2
+import numpy as np# used to read the image. in gray formate
+cv2.imwrite('prudhvi.png',img)
+cv2.imshow('image',img)
+cv2.waitKey(0)
+cv2.destroyAllWindows()
+
